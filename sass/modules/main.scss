@@ -1,9 +1,17 @@
-main{
+.container{
 	background-color: $third-color;
-	h3{
-		font-family: $title-font;
-	}
-	p{
-		font-family: $text-font;
+  	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+
+	section{
+		width: 50%;
+		h3{
+			font-family: $title-font;
+		}
+		p{
+			font-family: $text-font;
+		}
 	}
 }
