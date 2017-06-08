@@ -1,0 +1,30 @@
+header {
+  background-color: #872341;
+  border-color: #BE3144;
+  border-radius: 0% 19% 0% 19% / 0% 36% 0% 36%;
+  border-width: 10px 4px; }
+  header section img {
+    border-radius: 24% 24% 24% 24% / 55% 55% 55% 55%;
+    display: block;
+    width: 30%;
+    height: 30%;
+    background-position: 50% 50%; }
+  header section h1 {
+    display: inline-flex;
+    font-family: "Pacifico", cursive; }
+  header section h3 {
+    font-family: "Pacifico", cursive; }
+  header section p {
+    font-family: "Open Sans", sans-serif; }
+
+body {
+  background: #2f1b41; }
+
+main {
+  background-color: #BE3144; }
+  main h3 {
+    font-family: "Oswald", sans-serif; }
+  main p {
+    font-family: "Open Sans", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
