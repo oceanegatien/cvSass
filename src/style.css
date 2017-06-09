@@ -37,14 +37,51 @@ body {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between; }
-  .container section {
+  .container .partOne {
+    /*border-width: 4px 0 0 0;
+    border-style: groove;
+    border-color: black;*/
     background-color: #202020;
-    width: 50%;
-    margin-right: 1%; }
-    .container section h3 {
+    text-align: left;
+    width: 30%;
+    margin-right: 1%;
+    -webkit-box-shadow: 0px 5px 5px 0px #000000;
+    -moz-box-shadow: 0px 5px 5px 0px #000000;
+    box-shadow: 0px 5px 5px 0px #000000;
+    background-color: #202020;
+    text-align: left; }
+    .container .partOne h3 {
+      color: white;
       font-family: "Oswald", sans-serif; }
-    .container section ul li {
+    .container .partOne ul li {
+      list-style: none;
+      font-family: "Open Sans", sans-serif; }
+      .container .partOne ul li i {
+        margin-right: 2%; }
+      .container .partOne ul li a {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-decoration: underline; }
+      .container .partOne ul li a:link {
+        color: white;
+        font-family: "Open Sans", sans-serif; }
+      .container .partOne ul li a:focus {
+        color: #600020;
+        font-family: "Open Sans", sans-serif; }
+    .container .partOne p {
       font-family: "Open Sans", sans-serif;
-      list-style: none; }
+      color: white; }
+  .container .partTwo {
+    width: 70%;
+    background-color: #202020;
+    text-align: left;
+    margin-left: 1%; }
+    .container .partTwo h3 {
+      color: white;
+      font-family: "Oswald", sans-serif; }
+    .container .partTwo p {
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 2%; }
 
 /*# sourceMappingURL=style.css.map */
