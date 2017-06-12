@@ -4,9 +4,6 @@
 		justify-content: space-between;
 
 	.partOne{
-		/*border-width: 4px 0 0 0;
-		border-style: groove;
-		border-color: black;*/
 		background-color: $third-color;
 		text-align: left;
 		width: 30%;
@@ -17,13 +14,17 @@
 		background-color: $third-color;
 		text-align: left;
 		h3{
+			margin-top: 5%;
+			margin-bottom: 3%;
 			color: white;
 			font-family: $title-font;
 		}
 		ul{
 			li{
+				margin-bottom: 3%;
 				list-style: none;
 				font-family: $text-font;
+				display: flex;
 				i{
 					margin-right: 2%;
 				}
@@ -40,11 +41,36 @@
 					color: $fourth-color;
 					font-family: $text-font;
 				}
+				img{
+					width: 25%;
+					height: 25%;
+
+					max-width: 100%;
+				}
+				.hidden{
+					background: white;
+					margin-bottom: 5%;
+					margin-top: 5%;
+					background: white;
+				}
 			}
 		}
 		p{
 			font-family: $text-font;
 			color: white;
+		}
+		.technos{
+			h4{
+				font-family: $title-font;
+			}
+			li{
+				p{
+					display: inline-flex;
+					font-family: $text-font;
+					margin-left: 7%;
+				}
+
+			}
 		}
 	}
 	.partTwo{
@@ -55,11 +81,24 @@
 		h3{
 			color: white;
 			font-family: $title-font;
+			text-align: center;
 		}
 		p{
 			color: white;
 			font-family: $text-font;
 			margin-left: 2%;
+		}
+		ul{
+			display: inline-grid;
+			justify-content: space-around;
+			text-align: center;
+			h4{
+				font-family: $title-font;
+			}
+			li{
+				list-style: none;
+				font-family: $text-font;
+			}
 		}
 
 	}
