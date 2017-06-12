@@ -38,9 +38,6 @@ body {
   display: flex;
   justify-content: space-between; }
   .container .partOne {
-    /*border-width: 4px 0 0 0;
-    border-style: groove;
-    border-color: black;*/
     background-color: #202020;
     text-align: left;
     width: 30%;
@@ -70,7 +67,7 @@ body {
         color: white;
         font-family: "Open Sans", sans-serif; }
       .container .partOne ul li a:focus {
-        color: #600020;
+        color: #353535;
         font-family: "Open Sans", sans-serif; }
       .container .partOne ul li img {
         width: 25%;
@@ -92,14 +89,14 @@ body {
       margin-left: 7%; }
   .container .partTwo {
     width: 70%;
-    background-color: #202020;
-    text-align: left;
-    margin-left: 1%; }
+    margin-left: 1%;
+    margin-right: 2%; }
     .container .partTwo h3 {
       color: white;
       font-family: "Oswald", sans-serif;
       text-align: center; }
     .container .partTwo p {
+      text-align: justify;
       color: white;
       font-family: "Open Sans", sans-serif;
       margin-left: 2%; }

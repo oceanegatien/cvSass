@@ -75,15 +75,16 @@
 	}
 	.partTwo{
 		width: 70%;
-		background-color: $third-color;
-		text-align: left;
+
 		margin-left: 1%;
+		margin-right: 2%;
 		h3{
 			color: white;
 			font-family: $title-font;
 			text-align: center;
 		}
 		p{
+			text-align: justify;
 			color: white;
 			font-family: $text-font;
 			margin-left: 2%;
