@@ -48,11 +48,15 @@ body {
     background-color: #202020;
     text-align: left; }
     .container .partOne h3 {
+      margin-top: 5%;
+      margin-bottom: 3%;
       color: white;
       font-family: "Oswald", sans-serif; }
     .container .partOne ul li {
+      margin-bottom: 3%;
       list-style: none;
-      font-family: "Open Sans", sans-serif; }
+      font-family: "Open Sans", sans-serif;
+      display: flex; }
       .container .partOne ul li i {
         margin-right: 2%; }
       .container .partOne ul li a {
@@ -65,9 +69,24 @@ body {
       .container .partOne ul li a:focus {
         color: #600020;
         font-family: "Open Sans", sans-serif; }
+      .container .partOne ul li img {
+        width: 25%;
+        height: 25%;
+        max-width: 100%; }
+      .container .partOne ul li .hidden {
+        background: white;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background: white; }
     .container .partOne p {
       font-family: "Open Sans", sans-serif;
       color: white; }
+    .container .partOne .technos h4 {
+      font-family: "Oswald", sans-serif; }
+    .container .partOne .technos li p {
+      display: inline-flex;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 7%; }
   .container .partTwo {
     width: 75%;
     background-color: #202020;
@@ -75,10 +94,20 @@ body {
     margin-left: 1%; }
     .container .partTwo h3 {
       color: white;
-      font-family: "Oswald", sans-serif; }
+      font-family: "Oswald", sans-serif;
+      text-align: center; }
     .container .partTwo p {
       color: white;
       font-family: "Open Sans", sans-serif;
       margin-left: 2%; }
+    .container .partTwo ul {
+      display: inline-grid;
+      justify-content: space-around;
+      text-align: center; }
+      .container .partTwo ul h4 {
+        font-family: "Oswald", sans-serif; }
+      .container .partTwo ul li {
+        list-style: none;
+        font-family: "Open Sans", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
